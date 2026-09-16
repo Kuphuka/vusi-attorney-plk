@@ -4,7 +4,7 @@ export type ImageAsset = {
 }
 
 export const images = {
-  hero: { src: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1800&q=85', alt: 'Lawyer reviewing documents in a refined office' },
+  hero: { src: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1800&q=85', alt: 'Legal books and courtroom scales' },
   about: { src: 'https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1200&q=85', alt: 'Law books and legal documents on a desk' },
   practice: [
     { src: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=85', alt: 'Legal papers and a fountain pen' },
@@ -15,10 +15,8 @@ export const images = {
     { src: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=85', alt: 'Professional property exterior' },
   ] as ImageAsset[],
   office: [
-    { src: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=85', alt: 'Placeholder office interior with warm light' },
-    { src: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1000&q=85', alt: 'Placeholder reception and open office' },
-    { src: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=85', alt: 'Placeholder modern consultation room' },
-    { src: 'https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&w=1000&q=85', alt: 'Placeholder boardroom with a long table' },
-    { src: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=85', alt: 'Placeholder professional building exterior' },
+    { src: 'https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=1600&q=85', alt: 'Justice scales representing South African court proceedings' },
+    { src: 'https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1000&q=85', alt: 'Law books and legal documents' },
+    { src: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1000&q=85', alt: 'Legal papers prepared for court' },
   ] as ImageAsset[],
 }
